@@ -73,39 +73,99 @@ Fuck off, Tom. - Chris
 
 ### Supported Actions
 
- * `fuck.awesome(from_)`
- * `fuck.ballmer(name, company, from_)`
- * `fuck.because(from_)`
- * `fuck.bus(name, from_)`
- * `fuck.bye(from_)`
- * `fuck.caniuse(namer, from_)`
- * `fuck.chainsaw(name, from_)`
- * `fuck.cool(from_)`
- * `fuck.diabetes(from_)`
- * `fuck.donut(name, from_)`
- * `fuck.everyone(from_)`
- * `fuck.everything(from_)`
- * `fuck.fascinating(from_)`
- * `fuck.field(name, from_, reference)`
- * `fuck.flying(from_)`
- * `fuck.king(name, from_)`
- * `fuck.life(from_)`
- * `fuck.linus(name, from_)`
- * `fuck.madison(name, from_)`
- * `fuck.nugget(name, from_)`
- * `fuck.off(name, from_)`
- * `fuck.outside(name, from_)`
- * `fuck.pink(from_)`
- * `fuck.thanks(from_)`
- * `fuck.that(from_)`
- * `fuck.thing(thing, from_)`
- * `fuck.this(from_)`
- * `fuck.random(name, from_)`
- * `fuck.shakespeare(name, from_)`
- * `fuck.what(from_)`
- * `fuck.xmas(name, from_)`
- * `fuck.yoda(name, from_)`
- * `fuck.you(name, from_)`
+   * `fuck.anyway(company, from_)`
+   * `fuck.asshole(from_)`
+   * `fuck.awesome(from_)`
+   * `fuck.back(name, from_)`
+   * `fuck.bag(from_)`
+   * `fuck.ballmer(name, company, from_)`
+   * `fuck.bday(name, from_)`
+   * `fuck.because(from_)`
+   * `fuck.blackadder(name, from_)`
+   * `fuck.bm(name, from_)`
+   * `fuck.bucket(from_)`
+   * `fuck.bus(name, from_)`
+   * `fuck.bye(from_)`
+   * `fuck.caniuse(tool, from_)`
+   * `fuck.chainsaw(name, from_)`
+   * `fuck.cocksplat(name, from_)`
+   * `fuck.cup(from_)`
+   * `fuck.cool(from_)`
+   * `fuck.dalton(name, from_)`
+   * `fuck.deraadt(name, from_)`
+   * `fuck.diabetes(from_)`
+   * `fuck.donut(name, from_)`
+   * `fuck.dosomething(do, something, from_)`
+   * `fuck.equity(name, from_)`
+   * `fuck.even(from_)`
+   * `fuck.everyone(from_)`
+   * `fuck.everything(from_)`
+   * `fuck.family(from_)`
+   * `fuck.fascinating(from_)`
+   * `fuck.fewer(name, from_)`
+   * `fuck.field(name, from_, reference)`
+   * `fuck.flying(from_)`
+   * `fuck.ftfy(from_)`
+   * `fuck.fts(name, from_)`
+   * `fuck.fyyff(from_)`
+   * `fuck.gfy(name, from_)`
+   * `fuck.give(from_)`
+   * `fuck.greed(noun, from_)`
+   * `fuck.holygrail(from_)`
+   * `fuck.horse(from_)`
+   * `fuck.idea(from_)`
+   * `fuck.immensity(from_)`
+   * `fuck.ing(name, from_)`
+   * `fuck.jinglebells(from_)`
+   * `fuck.keep(name, from_)`
+   * `fuck.keepcalm(reaction, from_)`
+   * `fuck.king(name, from_)`
+   * `fuck.legend(name, from_)`
+   * `fuck.life(from_)`
+   * `fuck.linus(name, from_)`
+   * `fuck.logs(from_)`
+   * `fuck.look(name, from_)`
+   * `fuck.looking(from_)`
+   * `fuck.madison(name, from_)`
+   * `fuck.maybe(from_)`
+   * `fuck.me(from_)`
+   * `fuck.mornin(from_)`
+   * `fuck.no(from_)`
+   * `fuck.nugget(name, from_)`
+   * `fuck.off(name, from_)`
+   * `fuck.off-with(behavior, from_)`
+   * `fuck.outside(name, from_)`
+   * `fuck.particular(thing, from_)`
+   * `fuck.pink(from_)`
+   * `fuck.problem(name, from_)`
+   * `fuck.programmer(from_)`
+   * `fuck.pulp(language, from_)`
+   * `fuck.question(from_)`
+   * `fuck.ratsarse(from_)`
+   * `fuck.retard(from_)`
+   * `fuck.ridiculous(from_)`
+   * `fuck.rockstar(name, from_)`
+   * `fuck.rtfm(from_)`
+   * `fuck.sake(from_)`
+   * `fuck.shakespeare(name, from_)`
+   * `fuck.shit(from_)`
+   * `fuck.shutup(name, from_)`
+   * `fuck.single(from_)`
+   * `fuck.thanks(from_)`
+   * `fuck.that(from_)`
+   * `fuck.think(name, from_)`
+   * `fuck.thinking(name, from_)`
+   * `fuck.this(from_)`
+   * `fuck.thumbs(name, from_)`
+   * `fuck.too(from_)`
+   * `fuck.tucker(from_)`
+   * `fuck.waste(name, from_)`
+   * `fuck.what(from_)`
+   * `fuck.xmas(name, from_)`
+   * `fuck.yoda(name, from_)`
+   * `fuck.you(name, from_)`
+   * `fuck.zayn(from_)`
+   * `fuck.zero(from_)`
 
 ### tl;dr
 
