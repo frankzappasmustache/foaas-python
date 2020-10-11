@@ -14,6 +14,7 @@ __VERSION__ = '0.2.0'
 
 class FuckingResponse(object):
     ''' Takes care of making the actual request in the specified format. '''
+
     def __init__(self, url, language=None):
         self.url = url
         self.language = language
@@ -109,7 +110,7 @@ class Fuck(object):
         'no': 'no/{from}',
         'nugget': 'nugget/{name}/{from}',
         'off': 'off/{name}/{from}',
-        'off-with': 'off-with/{behavior}/{from}',
+        'off_with': 'off-with/{behavior}/{from}',
         'outside': 'outside/{name}/{from}',
         'particular': 'particular/{thing}/{from}',
         'pink': 'pink/{from}',
@@ -179,7 +180,7 @@ class Fuck(object):
     def build_url(self, path, **kwargs):
         # use from_ since from is a keyword. *grumble*
         params = dict([(k.rstrip('_'), quote(v)) for k, v
-            in kwargs.items() if v])
+                       in kwargs.items() if v])
         url = '{protocol}://foaas.herokuapp.com/{path}'.format(
             protocol='https' if self.secure else 'http',
             path=path.format(**params))
@@ -192,24 +193,24 @@ if __name__ == '__main__':
     parser = OptionParser()
 
     parser.add_option('-a', '--action', dest='action', default='off',
-        help='Name of the action to perform')
+                      help='Name of the action to perform')
 
     parser.add_option('-n', '--name', dest='name',
-        help='Who do you want to fuck off?')
+                      help='Who do you want to fuck off?')
 
     parser.add_option('-f', '--from', dest='from', help='Who are you?')
 
     parser.add_option('-c', '--company', dest='company',
-        help='Which company do you want to fuck off?')
+                      help='Which company do you want to fuck off?')
 
     parser.add_option('-t', '--thing', dest='thing',
-        help='What thing do you want to fuck off?')
+                      help='What thing do you want to fuck off?')
 
     parser.add_option('-r', '--reference', dest='reference',
-        help='Who do you want to reference?')
+                      help='Who do you want to reference?')
 
     parser.add_option('-u', '--url', action='store_true', dest='url',
-        help='Only display the URL (useful for c/ping)')
+                      help='Only display the URL (useful for c/ping)')
 
     (options, args) = parser.parse_args()
 
